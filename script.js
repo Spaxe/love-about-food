@@ -1,3 +1,7 @@
+if (window.location.href === "http://loveaboutfood.com") {
+  window.location.href = "https://loveaboutfood.com";
+}
+
 // Display photo after input[file] change
 // Adapted from: https://stackoverflow.com/a/4459419/319952
 const message = document.getElementById("message");

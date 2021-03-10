@@ -1,4 +1,5 @@
-if (window.location.href === "http://loveaboutfood.com") {
+// Redirect to HTTPS site always
+if (window.location.href.startsWith("http://loveaboutfood.com")) {
   window.location.href = "https://loveaboutfood.com";
 }
 

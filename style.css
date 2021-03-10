@@ -116,10 +116,10 @@ a.mdw {
 
 #upload-photo img {
   position: absolute;
-  top: 8px;
-  left: 9px;
-  width: 281px;
-  height: 281px;
+  top: 6px;
+  left: 6px;
+  width: 285px;
+  height: 285px;
   border-radius: 100%;
   object-fit: cover;
   mix-blend-mode: color-burn;

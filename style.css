@@ -24,8 +24,8 @@ form {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  padding: 40px;
-  z-index: 1;
+  align-items: center;
+  padding: 40px 20px;
 }
 
 label {
@@ -34,11 +34,14 @@ label {
 }
 
 .form-wrapper {
+  box-sizing: border-box;
   position: absolute;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
+  padding-top: max(50px, 20vh);
+  padding-bottom: max(100px, 20vh);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,12 +54,41 @@ label {
   text-align: center;
 }
 
+#title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  color: white;
+}
+
+.mdw {
+  font-size: 8px;
+  color: #878787;
+  margin: 3px;
+}
+
+a.mdw {
+  color: #cecece;
+  text-decoration: none;
+}
+
+.about {
+  color: rgb(255, 32, 2);
+}
+
 #message {
   background: rgb(16, 16, 14, 0.5);
   color: white;
-  font-family: "Inter";
-  padding: 15px;
+  font-family: 12px "Noto Sans JP", sans-serif;
+  padding: 10px;
   border: 0;
+  height: 30px;
+  width: 250px;
   border-bottom: 1px solid rgb(255, 32, 2);
 }
 
@@ -65,7 +97,7 @@ label {
   height: 300px;
   border-radius: 100%;
   overflow: hidden;
-  margin: 20px 0;
+  margin: 20px auto;
   position: relative;
   background: transparent
     url("https://assets.codepen.io/2209160/plate%402x.png");
@@ -91,7 +123,7 @@ label {
   height: 281px;
   border-radius: 100%;
   object-fit: cover;
-  mix-blend-mode: overlay;
+  mix-blend-mode: color-burn;
 }
 
 #upload-prompt {
@@ -110,7 +142,7 @@ label {
 #submit {
   width: 100px;
   height: 32px;
-  font-family: "Inter";
+  font-family: "Noto Sans JP", sans-serif;
   font-weight: 700;
   margin: 0 auto;
   border: 3px solid rgb(255, 32, 2);
@@ -183,7 +215,7 @@ label {
   font-family: "Abril Fatface", cursive;
   font-weight: bold;
   font-variant-ligatures: none;
-  fill: white;
+  fill: rgb(230, 230, 230);
 }
 
 .bg-plate {
@@ -207,7 +239,7 @@ label {
   height: 181px;
   border-radius: 100%;
   object-fit: cover;
-  mix-blend-mode: overlay;
+  mix-blend-mode: color-burn;
 }
 
 @keyframes spin {

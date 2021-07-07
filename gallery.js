@@ -3,8 +3,8 @@ const response = await fetch(
 );
 const usertext = await response.text();
 const data = Papa.parse(usertext, { header: true, skipEmptyLines: true }).data;
-
-console.log(data);
+// shuffle order
+data.sort(() => Math.random() - 0.5);
 
 const gallery = document.getElementById("online-gallery");
 const template = (count, text, imgUrl) => `

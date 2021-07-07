@@ -1,3 +1,10 @@
-# Love About Food Form Prototype
+# Love About Food (Web component)
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/xavier_ho/pen/cbc7484c7a96c7e09405fe8fb99c2e44](https://codepen.io/xavier_ho/pen/cbc7484c7a96c7e09405fe8fb99c2e44).
+DESC
+
+## Physical installation
+
+## Running it locally
+
+## Updating the installation
+

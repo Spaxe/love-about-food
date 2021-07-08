@@ -42,13 +42,15 @@ If the content looks good and you can log into form.taxi to see the image, proce
 
 Use the supplied template in the `templates` folder to resize and crop the photo into a 720x720 px circle on transparent background.
 
-Export the image for web (85% JPEG) in the `images` folder, and name it for the next number.
+Export the image for web (**must be PNG**) in the `images` folder, and name it for the next number.
 
 ##### Step 3: Add to the CSV file.
 
 On Form.taxi, export the latest entries as a CSV file. Open it up in a text editor and copy the new line into `submissions.csv` in its own line.
 
-Make sure you replace the `image` URL from the Form.Taxi one (doesn't work) to the website's own URL. e.g. `https://loveaboutfood.com/images/....`
+Make sure you replace the `image` URL from the Form.Taxi one (doesn't work) to the website's own URL. e.g. `https://loveaboutfood.com/images/image-XX.png....`
+
+> **Note:** It is very important that the image is named `image-XX`.png` in that format for TouchDesigner to pick it up.
 
 An example of a CSV entry is given below.
 

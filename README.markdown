@@ -62,8 +62,6 @@ An example of a CSV entry is given below.
 
 Add both the image and CSV to a new git commit, and then push it to GitHub. It will be published within seconds.
 
-You should be able to see the new image and text on the gallery page ([link](https://loveaboutfood.com/gallery.html)), as well as on the physical exhibition via the TouchDesigner files.
-
 That's it!
 
 ## Physical installation

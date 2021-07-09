@@ -39,10 +39,10 @@ label {
 .form-wrapper {
   box-sizing: border-box;
   position: absolute;
-  top: max(50px, 20vh);
+  top: min(100px, 20vh);
   left: 0;
-  width: 100vw;
-  height: 80vh;
+  width: 100%;
+  height: 100%;
   padding-bottom: max(100px, 20vh);
   display: flex;
   align-items: center;

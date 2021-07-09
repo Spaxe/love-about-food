@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Akaya+Telivigala&family=Anton&family=Dancing+Script:wght@500&family=Noto+Sans+JP:wght@500&family=Roboto+Mono:wght@500&family=Source+Serif+Pro&display=swap");
 
 :root {
-  --windowWidth: 100vw;
-  --windowHeight: 100vh;
+  --windowWidth: 100%;
+  --windowHeight: 100%;
 }
 
 html {
@@ -60,7 +60,7 @@ label {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -285,7 +285,7 @@ a.mdw {
 
 #online-gallery {
   margin: 100px auto;
-  padding: 0 50px;
+  padding: 0 100px;
   position: relative;
   display: grid;
   grid-auto-flow: row;

@@ -1,6 +1,6 @@
 // Redirect to HTTPS site always
-if (window.location.href.startsWith("http://loveaboutfood.com")) {
-  window.location.href = "https://loveaboutfood.com";
+if (window.location.href.startsWith("http://loveaboutfood.jtg.design")) {
+  window.location.href = "https://loveaboutfood.jtg.design";
 }
 
 // Display photo after input[file] change

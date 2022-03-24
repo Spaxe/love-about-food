@@ -12,9 +12,9 @@ This web component interacts with another component written in TouchDesigner.
 
 ### Visit the online exhibition
 
-- [Share a food memory](https://loveaboutfood.com/)
+- [Share a food memory](https://loveaboutfood.jtg.design/)
 
-- [Visit the online exhibition](https://loveaboutfood.com/gallery.html)
+- [Visit the online exhibition](https://loveaboutfood.jtg.design/gallery.html)
 
 # Web component contributor guide
 
@@ -48,14 +48,14 @@ Export the image for web (**must be PNG**) in the `images` folder, and name it f
 
 On Form.taxi, export the latest entries as a CSV file. Open it up in a text editor and copy the new line into `submissions.csv` in its own line.
 
-Make sure you replace the `image` URL from the Form.Taxi one (doesn't work) to the website's own URL. e.g. `https://loveaboutfood.com/images/image-XX.png....`
+Make sure you replace the `image` URL from the Form.Taxi one (doesn't work) to the website's own URL. e.g. `https://loveaboutfood.jtg.design/images/image-XX.png....`
 
 > **Note:** It is very important that the image is named `image-XX`.png` in that format for TouchDesigner to pick it up.
 
 An example of a CSV entry is given below.
 
 ```
-"2021-06-29 16:39:27","I love paella because it reminds me to the summers on the beach with my family",https://loveaboutfood.com/images/image-40.png
+"2021-06-29 16:39:27","I love paella because it reminds me to the summers on the beach with my family",https://loveaboutfood.jtg.design/images/image-40.png
 ```
 
 ##### Step 4: Save, commit, push
